@@ -1,0 +1,17 @@
+[package]
+org = "logistics"
+name = "express_delivery_microservice"
+version = "0.1.0"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org = "ballerinax"
+name = "kafka"
+version = "3.10.2"
+
+[[dependency]]
+org = "ballerinax"
+name = "mongodb"
+version = "4.4.0"
